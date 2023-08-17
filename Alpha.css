@@ -1,0 +1,407 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f5f5f5;
+}
+
+#menu{
+    display: none;
+}
+
+#navbar{
+    color: #FFFFFFBF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#navbar #left h1{
+    margin: 0px;
+    font-size: 17.3333px;
+    font-family: sans-serif;
+}
+
+#navbar #right ul{
+    font-size: 17.3333px;
+    font-family: sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+#navbar #right ul li button{
+    border-radius: 10px;
+    color: #FFFFFFBF;
+    background-color: transparent;
+    border: 2px solid #FFFFFFBF;
+    width: 93px;
+    height: 38px;
+    font-size: 17.3333px;
+}
+
+#navbar #left h1 span{
+    font-weight: 100;
+}
+
+#body{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+#body h1{
+    font-size: 60.6667px;
+    margin-bottom: 0px; 
+}
+
+#body p{
+    font-size: 21.667px;
+    margin-bottom: 37.9167px;
+}
+
+#body button{
+    color: #666666;
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    font-size: 17.3333px;
+    border: none;
+    margin-right: 20px;
+}
+
+#body #btn2{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+#intro {
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+#intro img{
+    width: 100%;
+}
+
+#intro h1{
+    font-weight: 200;
+    color: #646464;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 39px;
+}
+
+#intro p{
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    color: #777777;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#signup{
+    padding-top: 30px;
+    background-color: #e89980;
+    padding-bottom: 30px;
+}
+
+#signup h1,p{
+    text-align: center;
+    color: white;
+}
+
+#signup h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#signup p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+
+#signup div{
+    width: 40%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#signup div input{
+    color: white;
+    width: 45%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+
+#signup div input::placeholder{
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+#signup div button{
+    font-size: 16px;
+    width: 20%;
+    height: 110%;
+    color: #e89980;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#social{
+    padding-top: 30px;
+    background-color: white;
+}
+
+#social #logos{
+    height: 50px;
+    color: rgba(128, 128, 128, 0.304);
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+#social #logos i{
+    font-size: 40px;
+    height: 100%;
+}
+
+#social p{
+    text-align: center;
+    color: gray;
+}
+
+#social p .under{
+    border-bottom: dotted 1px;
+}
+#icon p{
+    color: black;
+
+}
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #6a6a6a;
+}
+#icon div{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding-top: 25px;
+}
+.fa.fa-bolt{
+    color: white;
+    background-color: #e89980;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart  {
+    color: white;
+       background-color: #7fcdb8;
+       border-radius: 100%;
+       font-size: 40px;
+       padding: 20px 20px;
+
+}
+.fa.fa-cloud{
+    color: white;
+       background-color: #90B0BA;
+       border-radius: 100%;
+       font-size: 40px;
+       padding: 20px 20px;
+
+}
+.fa.fa-lock{
+    color: white;
+       background-color: #E5CB95;
+       border-radius: 100%;
+       font-size: 40px;
+       padding: 20px 30px;
+}
+#icon div h1{
+    font-size: 25px;
+}
+#icon div p{
+    font-size: 16px;
+}
+#div1{
+    
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#div4{
+    border-left: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+#cont{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+}
+#card p{
+     color: black;
+
+}
+#card{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    color: #6a6a6a;
+    
+}
+#card div{
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+#card div img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#card div h1{
+    font-size: 25px;
+}
+#card div button{
+    width: 25%;
+    height: 40px;
+    background-color: rgb(255,255,255);
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    color: #6a6a6a;
+}
+
+
+/* ---mobile version--- */
+
+@media(max-width:600px){
+    body{
+        background-size: 190%;
+        background-position-x: center; 
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: #C0C0C0BF;
+        padding: 8px 19px;
+        border-radius: 5px;
+        margin: 8px 0px 0px 8px ;
+    }
+
+    #body{
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    #body h1{
+        font-size: 33px;
+    }
+
+    #body p{
+        font-size: 18.3333px;
+        margin-bottom: 33px;
+    }
+
+    #body button{
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #intro {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #intro h1{
+        font-size: 25px;
+    }
+
+    #intro p{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    #signup{
+        width: 100%;
+        height: 250px;
+    }
+
+    br{
+        display: none;
+    }
+
+    #signup h1{
+        font-size: 25px;
+    }
+
+    #signup p{
+        font-size: 14px;
+    }
+    #signup div{
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #signup div input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #signup div button{
+        width: 101%;
+    }
+}
+
+
